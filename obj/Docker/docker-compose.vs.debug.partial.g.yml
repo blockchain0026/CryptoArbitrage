@@ -1,0 +1,96 @@
+version: '3.4'
+
+services:
+  calculation.api:
+    image: calculationapi:dev
+    build:
+      target: base
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_calculation.api$
+    volumes:
+      - C:\Users\User\source\repos\CryptoArbitrage\src\Services\Calculation\Calculation.API:/app
+      - C:\Users\User\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_calculation.api$
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_calculation.api$ bin/Debug/netcoreapp2.1/Calculation.API.dll"
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/bash -c \"if PID=$$(pidof -x dotnet); then kill $$PID; fi\""
+
+  exchangesaccess.api:
+    image: exchangesaccessapi:dev
+    build:
+      target: base
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_exchangesaccess.api$
+    volumes:
+      - C:\Users\User\source\repos\CryptoArbitrage\src\Services\ExchangesAccess\ExchangesAccess.API:/app
+      - C:\Users\User\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_exchangesaccess.api$
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_exchangesaccess.api$ bin/Debug/netcoreapp2.1/ExchangesAccess.API.dll"
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/bash -c \"if PID=$$(pidof -x dotnet); then kill $$PID; fi\""
+
+
+  execution.api:
+    image: executionapi:dev
+    build:
+      target: base
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_execution.api$
+    volumes:
+      - C:\Users\User\source\repos\CryptoArbitrage\src\Services\Execution\Execution.API:/app
+      - C:\Users\User\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_execution.api$
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_execution.api$ bin/Debug/netcoreapp2.1/Execution.API.dll"
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/bash -c \"if PID=$$(pidof -x dotnet); then kill $$PID; fi\""
+
+
+  testapi:
+    image: testapi:dev
+    build:
+      target: base
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_testapi$
+    volumes:
+      - C:\Users\User\source\repos\CryptoArbitrage\TestAPI:/app
+      - C:\Users\User\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_testapi$
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_testapi$ bin/Debug/netcoreapp2.1/TestAPI.dll"
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/bash -c \"if PID=$$(pidof -x dotnet); then kill $$PID; fi\""
+
+
+  webmvc:
+    image: webmvc:dev
+    build:
+      target: base
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_webmvc$
+    volumes:
+      - C:\Users\User\source\repos\CryptoArbitrage\src\Web Apps\WebMVC:/app
+      - C:\Users\User\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_webmvc$
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_webmvc$ bin/Debug/netcoreapp2.1/WebMVC.dll"
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/bash -c \"if PID=$$(pidof -x dotnet); then kill $$PID; fi\""
+

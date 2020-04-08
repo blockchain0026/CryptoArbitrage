@@ -1,0 +1,12 @@
+C:\Users\User\source\repos\CryptoArbitrage\src\BuildingBlocks\EventBus\EventBusServiceBus\bin\Debug\netstandard2.0\EventBusServiceBus.deps.json
+C:\Users\User\source\repos\CryptoArbitrage\src\BuildingBlocks\EventBus\EventBusServiceBus\bin\Debug\netstandard2.0\EventBusServiceBus.dll
+C:\Users\User\source\repos\CryptoArbitrage\src\BuildingBlocks\EventBus\EventBusServiceBus\bin\Debug\netstandard2.0\EventBusServiceBus.pdb
+C:\Users\User\source\repos\CryptoArbitrage\src\BuildingBlocks\EventBus\EventBusServiceBus\bin\Debug\netstandard2.0\EventBus.dll
+C:\Users\User\source\repos\CryptoArbitrage\src\BuildingBlocks\EventBus\EventBusServiceBus\bin\Debug\netstandard2.0\EventBus.pdb
+C:\Users\User\source\repos\CryptoArbitrage\src\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\netstandard2.0\EventBusServiceBus.csprojAssemblyReference.cache
+C:\Users\User\source\repos\CryptoArbitrage\src\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\netstandard2.0\EventBusServiceBus.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\CryptoArbitrage\src\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\netstandard2.0\EventBusServiceBus.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\CryptoArbitrage\src\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\netstandard2.0\EventBusServiceBus.AssemblyInfo.cs
+C:\Users\User\source\repos\CryptoArbitrage\src\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\netstandard2.0\EventBusServiceBus.csproj.CopyComplete
+C:\Users\User\source\repos\CryptoArbitrage\src\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\netstandard2.0\EventBusServiceBus.dll
+C:\Users\User\source\repos\CryptoArbitrage\src\BuildingBlocks\EventBus\EventBusServiceBus\obj\Debug\netstandard2.0\EventBusServiceBus.pdb

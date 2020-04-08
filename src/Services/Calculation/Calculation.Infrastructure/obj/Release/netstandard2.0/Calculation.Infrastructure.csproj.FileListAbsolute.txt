@@ -1,0 +1,12 @@
+C:\Users\User\source\repos\CryptoArbitrage\src\Services\Calculation\Calculation.Infrastructure\bin\Release\netstandard2.0\Calculation.Infrastructure.deps.json
+C:\Users\User\source\repos\CryptoArbitrage\src\Services\Calculation\Calculation.Infrastructure\bin\Release\netstandard2.0\Calculation.Infrastructure.dll
+C:\Users\User\source\repos\CryptoArbitrage\src\Services\Calculation\Calculation.Infrastructure\bin\Release\netstandard2.0\Calculation.Infrastructure.pdb
+C:\Users\User\source\repos\CryptoArbitrage\src\Services\Calculation\Calculation.Infrastructure\bin\Release\netstandard2.0\Calculation.Domain.dll
+C:\Users\User\source\repos\CryptoArbitrage\src\Services\Calculation\Calculation.Infrastructure\bin\Release\netstandard2.0\Calculation.Domain.pdb
+C:\Users\User\source\repos\CryptoArbitrage\src\Services\Calculation\Calculation.Infrastructure\obj\Release\netstandard2.0\Calculation.Infrastructure.csprojAssemblyReference.cache
+C:\Users\User\source\repos\CryptoArbitrage\src\Services\Calculation\Calculation.Infrastructure\obj\Release\netstandard2.0\Calculation.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\CryptoArbitrage\src\Services\Calculation\Calculation.Infrastructure\obj\Release\netstandard2.0\Calculation.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\CryptoArbitrage\src\Services\Calculation\Calculation.Infrastructure\obj\Release\netstandard2.0\Calculation.Infrastructure.AssemblyInfo.cs
+C:\Users\User\source\repos\CryptoArbitrage\src\Services\Calculation\Calculation.Infrastructure\obj\Release\netstandard2.0\Calculation.Infrastructure.csproj.CopyComplete
+C:\Users\User\source\repos\CryptoArbitrage\src\Services\Calculation\Calculation.Infrastructure\obj\Release\netstandard2.0\Calculation.Infrastructure.dll
+C:\Users\User\source\repos\CryptoArbitrage\src\Services\Calculation\Calculation.Infrastructure\obj\Release\netstandard2.0\Calculation.Infrastructure.pdb

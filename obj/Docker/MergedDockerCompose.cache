@@ -1,0 +1,119 @@
+services:
+  calculation.api:
+    build:
+      context: C:\Users\User\source\repos\CryptoArbitrage
+      dockerfile: src/Services/Calculation/Calculation.API/Dockerfile
+    depends_on:
+    - rabbitmq
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTPS_PORT: '44310'
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: calculationapi
+    ports:
+    - published: 4909
+      target: 80
+    - published: 44310
+      target: 443
+    volumes:
+    - C:\Users\User\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\User\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+  exchangesaccess.api:
+    build:
+      context: C:\Users\User\source\repos\CryptoArbitrage
+      dockerfile: src/Services/ExchangesAccess/ExchangesAccess.API/Dockerfile
+    depends_on:
+    - rabbitmq
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTPS_PORT: '44328'
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: exchangesaccessapi
+    ports:
+    - published: 4402
+      target: 80
+    - published: 44328
+      target: 443
+    volumes:
+    - C:\Users\User\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\User\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+  execution.api:
+    build:
+      context: C:\Users\User\source\repos\CryptoArbitrage
+      dockerfile: src/Services/Execution/Execution.API/Dockerfile
+    depends_on:
+    - rabbitmq
+    - sql.data
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTPS_PORT: '44351'
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      ConnectionString: Server=sql.data;Database=cryptoarbitrage;User Id=sa;Password=1Secure*Password1
+    image: executionapi
+    ports:
+    - published: 63529
+      target: 80
+    - published: 44351
+      target: 443
+    volumes:
+    - C:\Users\User\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\User\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+  rabbitmq:
+    image: rabbitmq:3.7.2-management
+    ports:
+    - published: 4369
+      target: 4369
+    - published: 5671
+      target: 5671
+    - published: 5672
+      target: 5672
+    - published: 15671
+      target: 15671
+    - published: 8080
+      target: 15672
+  sql.data:
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: Developer
+      MSSQL_SA_PASSWORD: 1Secure*Password1
+    image: microsoft/mssql-server-linux:2017-latest
+    ports:
+    - published: 5432
+      target: 1433
+  testapi:
+    build:
+      context: C:\Users\User\source\repos\CryptoArbitrage
+      dockerfile: TestAPI/Dockerfile
+    depends_on:
+    - sql.data
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTPS_PORT: '44348'
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: testapi
+    ports:
+    - published: 60715
+      target: 80
+    - published: 44348
+      target: 443
+    volumes:
+    - C:\Users\User\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\User\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+  webmvc:
+    build:
+      context: C:\Users\User\source\repos\CryptoArbitrage
+      dockerfile: src/Web Apps/WebMVC/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTPS_PORT: '44324'
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: webmvc
+    ports:
+    - published: 3684
+      target: 80
+    - published: 44324
+      target: 443
+    volumes:
+    - C:\Users\User\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\User\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

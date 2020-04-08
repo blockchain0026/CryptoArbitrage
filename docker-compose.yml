@@ -1,0 +1,57 @@
+version: '3.4'
+
+services:
+  exchangesaccess.api:
+    image: ${DOCKER_REGISTRY}exchangesaccessapi
+    build:
+      context: .
+      dockerfile: src/Services/ExchangesAccess/ExchangesAccess.API/Dockerfile
+    depends_on:
+      - rabbitmq
+
+  calculation.api:
+    image: ${DOCKER_REGISTRY}calculationapi
+    build:
+      context: .
+      dockerfile: src/Services/Calculation/Calculation.API/Dockerfile
+    depends_on:
+      - rabbitmq
+
+  execution.api:
+    image: ${DOCKER_REGISTRY}executionapi
+    build:
+      context: .
+      dockerfile: src/Services/Execution/Execution.API/Dockerfile
+    depends_on:
+      - rabbitmq
+      - sql.data
+
+  rabbitmq:
+    image: rabbitmq:3.7.2-management
+    ports:
+      - "8080:15672"
+      - "5671:5671"
+      - "15671:15671"
+      - "5672:5672"
+      - "4369:4369"
+
+  sql.data:
+    image: microsoft/mssql-server-linux:2017-latest
+
+  testapi:
+    image: ${DOCKER_REGISTRY}testapi
+    build:
+      context: .
+      dockerfile: TestAPI/Dockerfile
+    depends_on:
+      - sql.data
+
+
+
+
+  webmvc:
+    image: ${DOCKER_REGISTRY}webmvc
+    build:
+      context: .
+      dockerfile: src/Web Apps/WebMVC/Dockerfile
+

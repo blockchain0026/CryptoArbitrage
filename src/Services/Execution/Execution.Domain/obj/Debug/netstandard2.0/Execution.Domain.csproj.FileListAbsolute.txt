@@ -1,0 +1,9 @@
+C:\Users\User\source\repos\CryptoArbitrage\src\Services\Execution\Execution.Domain\bin\Debug\netstandard2.0\Execution.Domain.deps.json
+C:\Users\User\source\repos\CryptoArbitrage\src\Services\Execution\Execution.Domain\bin\Debug\netstandard2.0\Execution.Domain.dll
+C:\Users\User\source\repos\CryptoArbitrage\src\Services\Execution\Execution.Domain\bin\Debug\netstandard2.0\Execution.Domain.pdb
+C:\Users\User\source\repos\CryptoArbitrage\src\Services\Execution\Execution.Domain\obj\Debug\netstandard2.0\Execution.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\CryptoArbitrage\src\Services\Execution\Execution.Domain\obj\Debug\netstandard2.0\Execution.Domain.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\CryptoArbitrage\src\Services\Execution\Execution.Domain\obj\Debug\netstandard2.0\Execution.Domain.AssemblyInfo.cs
+C:\Users\User\source\repos\CryptoArbitrage\src\Services\Execution\Execution.Domain\obj\Debug\netstandard2.0\Execution.Domain.dll
+C:\Users\User\source\repos\CryptoArbitrage\src\Services\Execution\Execution.Domain\obj\Debug\netstandard2.0\Execution.Domain.pdb
+C:\Users\User\source\repos\CryptoArbitrage\src\Services\Execution\Execution.Domain\obj\Debug\netstandard2.0\Execution.Domain.csprojAssemblyReference.cache

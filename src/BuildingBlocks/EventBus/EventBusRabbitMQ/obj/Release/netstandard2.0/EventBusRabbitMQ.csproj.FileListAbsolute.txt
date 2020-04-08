@@ -1,0 +1,12 @@
+C:\Users\User\source\repos\CryptoArbitrage\src\BuildingBlocks\EventBus\EventBusRabbitMQ\bin\Release\netstandard2.0\EventBusRabbitMQ.deps.json
+C:\Users\User\source\repos\CryptoArbitrage\src\BuildingBlocks\EventBus\EventBusRabbitMQ\bin\Release\netstandard2.0\EventBusRabbitMQ.dll
+C:\Users\User\source\repos\CryptoArbitrage\src\BuildingBlocks\EventBus\EventBusRabbitMQ\bin\Release\netstandard2.0\EventBusRabbitMQ.pdb
+C:\Users\User\source\repos\CryptoArbitrage\src\BuildingBlocks\EventBus\EventBusRabbitMQ\bin\Release\netstandard2.0\EventBus.dll
+C:\Users\User\source\repos\CryptoArbitrage\src\BuildingBlocks\EventBus\EventBusRabbitMQ\bin\Release\netstandard2.0\EventBus.pdb
+C:\Users\User\source\repos\CryptoArbitrage\src\BuildingBlocks\EventBus\EventBusRabbitMQ\obj\Release\netstandard2.0\EventBusRabbitMQ.csprojAssemblyReference.cache
+C:\Users\User\source\repos\CryptoArbitrage\src\BuildingBlocks\EventBus\EventBusRabbitMQ\obj\Release\netstandard2.0\EventBusRabbitMQ.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\CryptoArbitrage\src\BuildingBlocks\EventBus\EventBusRabbitMQ\obj\Release\netstandard2.0\EventBusRabbitMQ.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\CryptoArbitrage\src\BuildingBlocks\EventBus\EventBusRabbitMQ\obj\Release\netstandard2.0\EventBusRabbitMQ.AssemblyInfo.cs
+C:\Users\User\source\repos\CryptoArbitrage\src\BuildingBlocks\EventBus\EventBusRabbitMQ\obj\Release\netstandard2.0\EventBusRabbitMQ.csproj.CopyComplete
+C:\Users\User\source\repos\CryptoArbitrage\src\BuildingBlocks\EventBus\EventBusRabbitMQ\obj\Release\netstandard2.0\EventBusRabbitMQ.dll
+C:\Users\User\source\repos\CryptoArbitrage\src\BuildingBlocks\EventBus\EventBusRabbitMQ\obj\Release\netstandard2.0\EventBusRabbitMQ.pdb

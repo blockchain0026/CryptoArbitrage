@@ -1,0 +1,9 @@
+C:\Users\User\source\repos\CryptoArbitrage\src\Services\ExchangesAccess\ExchangesAccess.Domain\bin\Debug\netstandard2.0\ExchangesAccess.Domain.deps.json
+C:\Users\User\source\repos\CryptoArbitrage\src\Services\ExchangesAccess\ExchangesAccess.Domain\bin\Debug\netstandard2.0\ExchangesAccess.Domain.dll
+C:\Users\User\source\repos\CryptoArbitrage\src\Services\ExchangesAccess\ExchangesAccess.Domain\bin\Debug\netstandard2.0\ExchangesAccess.Domain.pdb
+C:\Users\User\source\repos\CryptoArbitrage\src\Services\ExchangesAccess\ExchangesAccess.Domain\obj\Debug\netstandard2.0\ExchangesAccess.Domain.csprojAssemblyReference.cache
+C:\Users\User\source\repos\CryptoArbitrage\src\Services\ExchangesAccess\ExchangesAccess.Domain\obj\Debug\netstandard2.0\ExchangesAccess.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\CryptoArbitrage\src\Services\ExchangesAccess\ExchangesAccess.Domain\obj\Debug\netstandard2.0\ExchangesAccess.Domain.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\CryptoArbitrage\src\Services\ExchangesAccess\ExchangesAccess.Domain\obj\Debug\netstandard2.0\ExchangesAccess.Domain.AssemblyInfo.cs
+C:\Users\User\source\repos\CryptoArbitrage\src\Services\ExchangesAccess\ExchangesAccess.Domain\obj\Debug\netstandard2.0\ExchangesAccess.Domain.dll
+C:\Users\User\source\repos\CryptoArbitrage\src\Services\ExchangesAccess\ExchangesAccess.Domain\obj\Debug\netstandard2.0\ExchangesAccess.Domain.pdb
