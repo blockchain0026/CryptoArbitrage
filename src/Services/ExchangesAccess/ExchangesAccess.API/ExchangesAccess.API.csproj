@@ -21,7 +21,7 @@
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="4.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
-    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="NSwag.AspNetCore" Version="11.20.0" />
     <PackageReference Include="Polly" Version="6.1.0" />
     <PackageReference Include="PoloniexWebSocketsApi" Version="0.1.0" />
